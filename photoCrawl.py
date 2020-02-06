@@ -39,13 +39,13 @@ def looper(i):
             sys.exit(1)
         looper(i+1);
         pass
-    # except (SSHException, OSError) as error:
-    #     print("error")
-    #     if(len(ipList)-1==i):
-    #         print("done")
-    #         sys.exit(1)
-    #     looper(i+1);
-    #     pass
+    except (SSHException, OSError) as error:
+         print("error")
+         if(len(ipList)-1==i):
+             print("done")
+             sys.exit(1)
+         looper(i+1);
+         pass
 
 
 def download_dir(remote_dir, local_dir):
