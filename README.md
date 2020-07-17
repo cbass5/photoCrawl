@@ -7,7 +7,6 @@ Checkra1n jailbreak automatically installs openSSH.
 
 ```
 change HOME variable to a directory on your pc. 
-
 ```
 
 Only use this on your own IPHONE!
